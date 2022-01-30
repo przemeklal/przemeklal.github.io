@@ -1,23 +1,34 @@
+:root {
+  --pl-background-color: #3d405b;
+  --pl-foreground-color: #f5f3f4;
+  --pl-accent-color: #81b29a;
+}
+
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #465775;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--pl-background-color);
+  color: var(--pl-foreground-color);
 }
 
-.fa {
-  color: white;
+.fab {
+  color: var(--pl-foreground-color);
 }
 
-.fa:hover {
-  color: #B3BFB8;
+.fab:hover {
+  color: var(--pl-accent-color);
 }
 
-#spotlight {
+#launchpad {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 93%;
   margin: auto;
+  max-width: 93%;
   font-size: 1.5rem;
 }
