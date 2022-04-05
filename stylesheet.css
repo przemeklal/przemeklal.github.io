@@ -1,11 +1,11 @@
 :root {
-  --pl-background-color: #0B2545;
+  --pl-background-color: #333333;
   --pl-foreground-color: #F2F5F8;
-  --pl-accent-color: #F2404F;
+  --pl-accent-color: #E95420;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', 'Lato', sans-serif;
   background-color: var(--pl-background-color);
   color: var(--pl-foreground-color);
 }
